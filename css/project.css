@@ -1,0 +1,37 @@
+.colorp {
+/*background-color: #7d5fff;*/
+background: linear-gradient(to top, #0080ff, #b3d9ff);
+color: black;
+}
+
+.project-tile {
+max-width: 300px;
+margin: 10px;
+transition: transform 0.3s ease;
+}
+
+.project-tile img {
+width: 100%;
+}
+
+.project-container {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+max-width: 960px;
+margin: 20px auto 0;
+}
+
+.project-tile p {
+font-size: 20px;
+margin-top: 10px;
+}
+
+.project-tile:hover {
+transform: scale(1.06);
+}
+
+.project-tile i:hover {
+	color: #66ffff;
+}

@@ -1,0 +1,200 @@
+/* About Me */
+@import url('font.css');
+.about-area {
+    background: linear-gradient(to right, #cce0ff, #4d94ff);
+    font-weight: bold;
+}
+.aboutm {
+    letter-spacing: 10px;
+    text-align: center;
+    display: block;
+    color: #0000cc;
+    font-style: oblique;
+}
+.about-me hr {
+    border-width: 7px;
+    border-left-color: red;
+    border-right-color: red;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+}
+
+#s1 {
+    margin-bottom: 2rem;
+}
+
+.coll {
+    margin-right: 1rem;
+    padding-right: 5rem;
+}
+
+.colr {
+    margin-top: 2.5rem;
+    padding-right: 2rem;
+}
+
+.img-fluid {
+    padding: 28px;
+    margin: 28px;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.para {
+    text-align: justify;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+.para u {
+    color:  #595959;
+}
+
+.btn {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+}
+
+.btn.primary-button {
+    background: linear-gradient(to right, #4d94ff, #cce0ff);
+    background-clip: padding-box;
+    color: #000066;
+    transition: background .6s ease;
+    font-weight: bold;
+}
+
+.btn.primary-button:hover {
+    background: linear-gradient(to right, #cce0ff, #4d94ff);
+    background-clip: padding-box;
+    color: whitesmoke;
+}
+
+.btn.primary-button::after,
+.btn.secondary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    content: '';
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    z-index: -1;
+    border-radius: 4px;
+    /*font-weight: 10px;*/
+}
+
+.btn.secondary-button {
+    background: linear-gradient(to right, #cce0ff, #4d94ff);
+    background-clip: padding-box;
+    transition: background .6s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn.secondary-button a{
+    text-decoration: none;
+}
+
+.btn.secondary-button:hover {
+    background: linear-gradient(to right, #4d94ff, #cce0ff);
+    color: whitesmoke;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+@media (max-width:600px) {
+    .about-area{
+        margin-left: 1rem;
+    }
+    body {
+        width: 100%;
+    }
+    .row {
+        display: block;
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+    }
+    .primary-button {
+        justify-content: center;
+    }
+    .secondary-button {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .coll {
+        width: 100%;
+        justify-content: center;
+    }
+    .colr {
+        align-items: center;
+        justify-content: center;
+        font-size: 100%;
+        line-height: 1.4;
+        width: 100%;
+    }
+    .img-fluid {
+        margin-left: 1rem;
+        height: 100%;
+        width: 100%;
+    }
+    .aboutm {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:340px) {
+    .about-area{
+        margin-left: 1rem;
+    }
+    body {
+        width: 100%;
+    }
+    .row {
+        display: block;
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+    }
+    .primary-button {
+        justify-content: center;
+    }
+    .secondary-button {
+        justify-content: center;
+    }
+    .coll {
+        width: 100%;
+        justify-content: center;
+    }
+    .colr {
+        align-items: center;
+        justify-content: center;
+        font-size: 100%;
+        line-height: 1.4;
+        width: 100%;
+    }
+    .img-fluid {
+        margin-left: 1rem;
+        height: 100%;
+        width: 100%;
+    }
+    .aboutm {
+        width: 100%;
+    }
+}*/

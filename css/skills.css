@@ -1,0 +1,26 @@
+#skills {
+	background: linear-gradient( to right, #99ccff, #0073e6);
+}
+.skill-tile {
+max-width: 300px;
+margin: 10px;
+transition: transform 0.3s ease;
+}
+.skill-tile img {
+width: 100%;
+}
+.skill-container {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+max-width: 960px;
+margin: 20px auto 0;
+}
+.skill-tile p {
+font-size: 30px;
+margin-top: 10px;
+}
+.skill-tile:hover {
+transform: scale(1.2);
+}

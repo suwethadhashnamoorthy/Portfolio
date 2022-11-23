@@ -1,0 +1,22 @@
+.edu-cert {
+	color: #00331a;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #80b3ff;
+	font-style: oblique;
+	font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /*height: 300px;  Should be removed. Only for demonstration */
+}
+.column li {
+	text-align: justify;
+}
+.row ul {
+	list-style-position: inside;
+	list-style-type: square;
+}
